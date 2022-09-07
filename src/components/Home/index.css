@@ -1,0 +1,65 @@
+.main-heading {
+  font-size: 50px;
+  font-family: 'roboto';
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 30px;
+}
+
+.home-bg-container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  height: 70vh;
+  justify-content: space-between;
+}
+
+.shop-now-button {
+  height: 38px;
+  width: 105px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background-color: #0967d2;
+  color: #ffffff;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+.cloths-image {
+  width: 400px;
+}
+
+.description {
+  font-size: 18px;
+  color: #475569;
+  font-family: 'roboto';
+  line-height: 28px;
+}
+.details-container {
+  width: 40%;
+}
+
+@media screen and (max-width: 768px) {
+  .home-bg-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .details-container {
+    order: 1;
+    align-self: center;
+    width: 100%;
+  }
+  .cloths-image {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  .main-heading {
+    font-size: 30px;
+  }
+}
